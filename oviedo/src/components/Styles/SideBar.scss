@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+body {
+    font-family: 'Rubik', sans-serif;
+}
+$light:rgb(237, 250, 252);
+$dark:rgb(14, 147, 151);
+
+.sidebar{
+    width: 14 rem;
+    height: calc (100vh - 52vh);
+    border-right: 1px solid $light;
+    ul{
+        list-style:none;
+        padding: 1rem 2rem;
+        li{
+            margin-bottom: 1 rem;
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}
